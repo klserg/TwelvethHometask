@@ -30,7 +30,7 @@ public class ConsoleUserView implements UsersView{
         String login = scanner.nextLine();
         System.out.println("Введите пароль:");
         String password = scanner.nextLine();
-        System.out.println("Введите дату рождения:");
+        System.out.println("Введите дату рождения в формате \"yyyy-MM-dd\":");
         String dateBorn = scanner.nextLine();
         SimpleDateFormat format = new SimpleDateFormat();
         Date docDate = null;
